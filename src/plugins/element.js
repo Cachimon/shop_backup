@@ -1,0 +1,87 @@
+import Vue from 'vue'
+import {
+  Button,
+  Select,
+  Form,
+  FormItem,
+  Option,
+  Input,
+  Message,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  Row,
+  Col,
+  Table,
+  TableColumn,
+  Switch,
+  Tooltip,
+  Dialog,
+  MessageBox,
+  Pagination,
+  Tag,
+  Tree,
+  Alert,
+  Cascader,
+  Tabs,
+  TabPane,
+  Loading,
+  Steps,
+  Step,
+  CheckboxGroup,
+  Checkbox,
+  Upload,
+  Timeline,
+  TimelineItem
+} from 'element-ui'
+
+Vue.use(Button)
+Vue.use(Select)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Option)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Switch)
+Vue.use(Tooltip)
+Vue.use(Dialog)
+Vue.use(Pagination)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Alert)
+Vue.use(Cascader)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
+Vue.use(Loading.directive)//使用v-loading
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm//显示取消按钮
+//Vue.prototype.$loading = Loading.service使用Loading对象

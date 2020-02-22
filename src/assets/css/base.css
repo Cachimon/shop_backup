@@ -1,0 +1,38 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1066px;
+}
+.el-dialog__header{
+  text-align: left;
+}
+.el-dialog{
+  text-align: left;
+}
+.el-card {
+  margin-top: 20px;
+  
+}
+.el-card .el-table {
+  margin-top: 20px;
+}
+.el-breadcrumb {
+  font-size: 13px;
+}
+.el-table{
+  font-size: 12px;
+}
+.el-cascader-menu__list{
+  height: 200px;
+  overflow: scroll;
+}
+.el-step__title{
+  font-size: 14px;
+}
+.ql-editor {
+  min-height: 300px;
+}
