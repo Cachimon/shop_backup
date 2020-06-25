@@ -20,7 +20,7 @@ const Reports = () => import('views/report/Reports')//不可加大括号
 const routes = [
   {
     path: '/',
-    redirect: '/login'
+    redirect: '/home'
   },
   {
     path: '/login',
